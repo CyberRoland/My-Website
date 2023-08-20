@@ -57,7 +57,7 @@ h1{
 #a{
     background-color: rgba(108, 117, 125, 0.082);
     text-align: center;
-    font-size: 2px;
+    font-size: 20%;
 }
 #abt{
     background-image: url(image/banana.png);
@@ -97,4 +97,24 @@ h1{
     font-size: 50px;
     height: 100%;
     color: azure;
+}
+.description{
+    text-align: center;
+}
+.gallery{
+    display: inline-block;
+    place-items: center;
+    margin: 5%;
+}
+#MeloMind{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: filter 0.2s, box-shadow 0.15s;
+    height: 200px;
+}
+#MeloMind:hover{
+    opacity: 0.8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
 }
