@@ -1,3 +1,9 @@
+footer{
+    font-size: 0.8rem;
+    background-color: rgba(108, 117, 125, 0.082);
+    text-align: center;
+
+}
 .navbar ul{
     list-style-type: none;
     padding: 20px;
@@ -54,11 +60,6 @@ h1{
 #yt{
     text-decoration: none;
 }
-#a{
-    background-color: rgba(108, 117, 125, 0.082);
-    text-align: center;
-    font-size: 20%;
-}
 #abt{
     background-image: url(image/banana.png);
     background-repeat: no-repeat;
@@ -70,7 +71,7 @@ h1{
     padding: 0px;
 }
 #whome{
-    font-size: 47px;
+    font-size: 2rem;
     text-align: center;
     margin-bottom: 2px;
 }
@@ -102,9 +103,10 @@ h1{
     text-align: center;
 }
 .gallery{
-    display: inline-block;
-    place-items: center;
     margin: 5%;
+}
+.galrow{
+    display: flex;
 }
 #MeloMind{
     border-style: solid;
@@ -118,4 +120,31 @@ h1{
     opacity: 0.96;
     transform: rotate(2deg) scale(1.05,1.05);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+}
+.Project-stuff{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.About-project{
+    width: 35%;
+    height: 30ch;
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;
+    margin: 1%;
+}
+.Project-info{
+    width:45%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 1%;
+}
+.Project-stuff ul{
+    list-style-type: none;
+    font-size: 1rem;
+}
+p{
+    margin: 1rem;
 }
