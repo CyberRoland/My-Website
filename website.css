@@ -111,10 +111,11 @@ h1{
     border-radius: 20px;
     border-color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: filter 0.2s, box-shadow 0.15s;
+    transition: transform 0.15s, opacity 0.15s;
     height: 200px;
 }
 #MeloMind:hover{
-    opacity: 0.8;
+    opacity: 0.96;
+    transform: rotate(2deg) scale(1.05,1.05);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
 }
