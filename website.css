@@ -20,9 +20,12 @@ footer{
     margin: 0px;
     display: block;
     text-align: center;
+    transition: all  0.15s;
 }
 .navbar a:hover{
     color: hsl(0, 0%,32%);
+    font-size: 30px;
+    text-decoration: solid;
 }
 .navbar li{
     float: right;
