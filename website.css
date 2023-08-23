@@ -1,5 +1,5 @@
 footer{
-    font-size: 0.8rem;
+    font-size: 0.8em;
     background-color: rgba(108, 117, 125, 0.082);
     text-align: center;
     height: 5%;
@@ -64,12 +64,12 @@ h1{
     background-position: center;
     background-size: cover;
     display: block;
-    height: 700px;
+    height: 30em;
     margin: 0px;
     padding: 0px;
 }
 #whome{
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
     margin-bottom: 2%;
 }
@@ -86,7 +86,7 @@ h1{
     display: grid;
     text-align: center;
     place-items: center;
-    font-size: 50px;
+    font-size: 2em;
     height: 100%;
     color: azure;
 }
@@ -139,13 +139,15 @@ h1{
     font-size: 1.5vw;
 }
 p{
-    font-size: 1.5vw;
+    font-size: 1.5em;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 100px;
 }
 main{
-    height: 20%;
+    display: grid;
+    height: 50vh;
+    place-content: center;
 }
 #lol{
     display: flex;
